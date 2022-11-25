@@ -48,7 +48,7 @@ let { covid } = require('./lib/covid.js')
 const { EmojiAPI } = require("emoji-api")
 const emoji = new EmojiAPI()
 const { color, bgcolor } = require('./lib/color')
-/////////const thiccysapi = require('textmaker-thiccy')
+const thiccysapi = require('textmaker-thiccy')
 const { XeonBotIncWiki } = require('./lib/xeonywiki.js')
 const textpro = require('./lib/textpro')
 const { mediafireDl } = require('./lib/mediafire.js')
@@ -24357,7 +24357,7 @@ reply("Link error!")
 }
 }
 break
-            case 'ytmp33': case 'ytaudio': { 
+            case 'ytmp33': { 
                  let { yta } = require('./lib/y2mate') 
                  if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps` 
                  let quality = args[1] ? args[1] : '128kbps' 
@@ -24367,7 +24367,7 @@ break
                  XeonBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m }) 
              }
  break
-             case 'ytmp44': case 'ytvideo': { 
+             case 'ytmp44': { 
                  let { ytv } = require('./lib/y2mate') 
                  if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p` 
                  let quality = args[1] ? args[1] : '360p' 
@@ -24464,7 +24464,7 @@ let { yta } = require('./lib/y2mate')
                  let media = await yta(text, quality) 
                  if (media.filesize >= 100000) return m.reply('File Over Limit '+util.format(media)) 
  let anj = await getBuffer(media.thumb)
-           XeonBotInc.sendImage(m.chat, media.thumb, `${themeemoji} Title : ${media.title}\n${themeemoji} File Size : ${media.filesizeF}\n${themeemoji} Url : ${isUrl(text)}\n${themeemoji} Ext : MP3\n${themeemoji} Resolution : ${args[1] || '128kbps'}`, m) 
+        /////////////////////////////////////,//////   XeonBotInc.sendImage(m.chat, media.thumb, `${themeemoji} Title : ${media.title}\n${themeemoji} File Size : ${media.filesizeF}\n${themeemoji} Url : ${isUrl(text)}\n${themeemoji} Ext : MP3\n${themeemoji} Resolution : ${args[1] || '128kbps'}`, m) 
                   
 const bjir = await XeonBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', contextInfo:{externalAdReply:{
 title:`${global.botname}`,
