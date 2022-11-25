@@ -58,48 +58,7 @@ const xeontod = require("tod-api")
 const { pinterest } = require("./lib/pinterest")
 ////////////const toHur = require('@develoka/angka-terbilang-js')
 const { hentai } = require('./lib/scraper2.js')
-const {
- FajarNews, 
- BBCNews,
-  metroNews,
-  CNNNews,
-  iNews,
-  KumparanNews,
-  TribunNews,
-  DailyNews,
-  DetikNews,
-  OkezoneNews,
-  CNBCNews,
-  KompasNews,
-  SindoNews,
-  TempoNews,
-  IndozoneNews,
-  AntaraNews,
-  RepublikaNews,
-  VivaNews,
-  KontanNews,
-  MerdekaNews,
-  KomikuSearch,
-  AniPlanetSearch,
-  KomikFoxSearch,
-  KomikStationSearch,
-  MangakuSearch,
-  KiryuuSearch,
-  KissMangaSearch,
-  KlikMangaSearch,
-  PalingMurah,
-  LayarKaca21,
-  AminoApps,
-  Mangatoon,
-  WAModsSearch,
-  Emojis,
-  CoronaInfo,
-  JalanTikusMeme, 
-  Cerpen,
-  Quotes,
-  Couples,
-  Darkjokes
-} = require("dhn-api")
+
 //rpg function\\
    const { 
      addInventoriDarah, 
