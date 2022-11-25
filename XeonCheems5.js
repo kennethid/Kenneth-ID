@@ -56,7 +56,7 @@ const { Gempa } = require("./lib/gempa.js")
 const { jadwaltv }= require('./lib/jadwaltv')
 const xeontod = require("tod-api")
 const { pinterest } = require("./lib/pinterest")
-const toHur = require('@develoka/angka-terbilang-js')
+////////////const toHur = require('@develoka/angka-terbilang-js')
 const { hentai } = require('./lib/scraper2.js')
 const {
  FajarNews, 
@@ -16221,7 +16221,7 @@ let documents = [doc1,doc2,doc3]
  buttons: buttons, 
  headerType: 4,
 contextInfo: { externalAdReply: { 
-title: `Jasjus ID 🔰`, 
+title: `Jasjus ID ??`, 
  body: `Random Images`, 
 mediaType: 4, 
  thumbnail: pics, 
